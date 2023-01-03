@@ -1,0 +1,26 @@
+:host {
+    position: fixed;
+    left: 0;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.temp,
+.day {
+    margin: 0;
+    text-align: center;
+}
+
+.temp {
+    font-weight: bold;
+}
+
+.day {
+    font-style: italic;
+}
+
+.list-group>li {
+    background-color: #c1e5fc;
+}

@@ -1,0 +1,24 @@
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination>li a {
+    color: #000;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #000;
+    background-color: #e7f4fc;
+    border-color: #e7f4fc;
+    cursor: pointer;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:hover {
+    color: #000;
+    background-color: #c1e5fc;
+    border: solid 1px #c1e5fc;
+}
